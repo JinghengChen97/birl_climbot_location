@@ -1,0 +1,8 @@
+prefix=/home/ch/code/P440/ROS_P440/src/BIRL_UWB/cmake-build-debug/devel
+
+Name: BIRL_UWB
+Description: Description of BIRL_UWB
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

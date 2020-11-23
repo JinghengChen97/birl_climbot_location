@@ -1,0 +1,25 @@
+/home/ch/SOFTWARES/Clion/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ch/code/P440/ROS_P440/src/BIRL_UWB
+-- Using CATKIN_DEVEL_PREFIX: /home/ch/code/P440/ROS_P440/src/BIRL_UWB/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/ch/code/P440/ClimbingRobotROS/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/ch/code/P440/ClimbingRobotROS/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ch/code/P440/ROS_P440/src/BIRL_UWB/cmake-build-debug/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Found required Ceres dependency: Eigen version 3.3.8 in /usr/local/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found Ceres version: 2.0.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+WARNING: Package name "BIRL_UWB" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ch/code/P440/ROS_P440/src/BIRL_UWB/cmake-build-debug

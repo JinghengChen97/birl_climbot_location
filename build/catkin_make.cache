@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/ch/code/ClimbingRobotLocation/devel -DCMAKE_INSTALL_PREFIX=/home/ch/code/ClimbingRobotLocation/install -G Unix Makefiles

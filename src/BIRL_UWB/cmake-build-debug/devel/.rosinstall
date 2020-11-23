@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ch/code/P440/ROS_P440/src/BIRL_UWB/cmake-build-debug/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: BIRL_UWB
+Description: Description of BIRL_UWB
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

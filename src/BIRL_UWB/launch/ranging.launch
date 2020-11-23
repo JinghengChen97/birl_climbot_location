@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam file="$(find BIRL_UWB)/config/default.yaml" command="load" ns="BIRL_UWB"/>
+
+    <node name="Ranging" pkg="BIRL_UWB" type="ranging_node" output="screen"/>
+
+</launch>

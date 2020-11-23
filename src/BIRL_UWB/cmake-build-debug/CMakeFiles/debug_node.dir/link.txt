@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/debug_node.dir/src/BIRL_UWB.cpp.o CMakeFiles/debug_node.dir/src/usb.cpp.o CMakeFiles/debug_node.dir/main/main_debug.cpp.o  -o devel/lib/BIRL_UWB/debug_node 

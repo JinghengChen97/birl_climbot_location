@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="Tracking" pkg="BIRL_UWB" type="tracking_node" output="screen"/>
+</launch>
