@@ -4,6 +4,7 @@ project(BIRL_UWB)
 ## Compile as C++11, supported in ROS Kinetic and newer
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_BUILD_TYPE Debug)
+
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
@@ -16,9 +17,9 @@ find_package(catkin REQUIRED COMPONENTS
   uwb_msg
 )
 find_package( Eigen3 REQUIRED)
-find_package( Ceres REQUIRED)
+# find_package( Ceres REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
-include_directories( ${CERES_INCLUDE_DIRS})
+# include_directories( ${CERES_INCLUDE_DIRS})
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -141,7 +142,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(test_node src/test_file.cpp src/BIRL_UWB.cpp src/usb.cpp)
 add_executable(tracking_node src/BIRL_UWB.cpp src/usb.cpp main/main_location.cpp)
-add_executable(ranging_node  src/BIRL_UWB.cpp src/usb.cpp main/main_ranging.cpp)
+# add_executable(ranging_node  src/BIRL_UWB.cpp src/usb.cpp main/main_ranging.cpp)
 add_executable(debug_node  src/BIRL_UWB.cpp src/usb.cpp main/main_debug.cpp)
 add_executable(locate_node  src/BIRL_UWB.cpp src/usb.cpp main/main_uwb_locating.cpp)
 ## Rename C++ executable without prefix
@@ -158,10 +159,13 @@ add_executable(locate_node  src/BIRL_UWB.cpp src/usb.cpp main/main_uwb_locating.
 target_link_libraries(tracking_node
   ${catkin_LIBRARIES}
 )
-target_link_libraries(ranging_node
-  ${catkin_LIBRARIES}
-  ${CERES_LIBRARIES}
-)
+#target_link_libraries(ranging_node
+#  ${catkin_LIBRARIES}
+#  ${CERES_LIBRARIES}
+#)
+
+#add_dependencies(ranging_node 
+#                 uwb_msg)
 #############
 ## Install ##
 #############

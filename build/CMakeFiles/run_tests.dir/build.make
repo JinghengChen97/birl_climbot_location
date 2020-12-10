@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ch/code/ClimbingRobotLocation/src
+CMAKE_SOURCE_DIR = /home/ch/code/birl_climbot_location/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ch/code/ClimbingRobotLocation/build
+CMAKE_BINARY_DIR = /home/ch/code/birl_climbot_location/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/ch/code/ClimbingRobotLocation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ch/code/ClimbingRobotLocation/src /home/ch/code/ClimbingRobotLocation/src /home/ch/code/ClimbingRobotLocation/build /home/ch/code/ClimbingRobotLocation/build /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ch/code/birl_climbot_location/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ch/code/birl_climbot_location/src /home/ch/code/birl_climbot_location/src /home/ch/code/birl_climbot_location/build /home/ch/code/birl_climbot_location/build /home/ch/code/birl_climbot_location/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

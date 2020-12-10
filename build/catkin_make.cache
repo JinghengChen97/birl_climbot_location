@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/ch/code/ClimbingRobotLocation/devel -DCMAKE_INSTALL_PREFIX=/home/ch/code/ClimbingRobotLocation/install -G Unix Makefiles
+BIRL_UWB:BirlModuleRobot/birl_modular_robot:BirlModuleRobot/canopen_communication:BirlModuleRobot/ui:DeadReckoning:camera:uwb_msg:vrpn_client
+-DCATKIN_WHITELIST_PACKAGES= -DCATKIN_DEVEL_PREFIX=/home/ch/code/birl_climbot_location/devel -DCMAKE_INSTALL_PREFIX=/home/ch/code/birl_climbot_location/install -G Unix Makefiles

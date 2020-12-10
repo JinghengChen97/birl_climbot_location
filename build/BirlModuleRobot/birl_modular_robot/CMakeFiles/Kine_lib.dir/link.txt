@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libKine_lib.so -o /home/ch/code/birl_climbot_location/devel/lib/libKine_lib.so CMakeFiles/Kine_lib.dir/__/kinematics/Kine.cpp.o CMakeFiles/Kine_lib.dir/__/kinematics/Matrix.cpp.o CMakeFiles/Kine_lib.dir/__/kinematics/Setup.cpp.o 

@@ -1,0 +1,32 @@
+/home/ch/SOFTWARES/Clion/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ch/code/P440/DeadReckoningROS/src/DeadReckoning
+-- Using CATKIN_DEVEL_PREFIX: /home/ch/code/P440/DeadReckoningROS/src/DeadReckoning/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: home/ch/P440/IMU/devel;/home/ch/P440/ROS_P440/devel;/opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ch/code/P440/DeadReckoningROS/src/DeadReckoning/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+CMake Error at cmake-build-debug/devel/share/ui/cmake/uiConfig.cmake:113 (message):
+  Project 'ui' specifies '/home/ch/P440/DeadReckoningROS/devel/include' as an
+  include dir, which is not found.  It does neither exist as an absolute
+  directory nor in
+  '/home/ch/P440/DeadReckoningROS/src/BirlModuleRobot/ui//home/ch/P440/DeadReckoningROS/devel/include'.
+  Report the problem to the maintainer 'tan <tan@todo.todo>' and request to
+  fix the problem.
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ch/code/P440/DeadReckoningROS/src/DeadReckoning/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/ch/code/P440/DeadReckoningROS/src/DeadReckoning/cmake-build-debug/CMakeFiles/CMakeError.log".

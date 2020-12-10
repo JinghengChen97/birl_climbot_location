@@ -1,8 +1,8 @@
-# Install script for directory: /home/ch/code/ClimbingRobotLocation/src
+# Install script for directory: /home/ch/code/birl_climbot_location/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ch/code/ClimbingRobotLocation/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ch/code/birl_climbot_location/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,88 +44,96 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ch/code/ClimbingRobotLocation/install/_setup_util.py")
+   "/home/ch/code/birl_climbot_location/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ch/code/ClimbingRobotLocation/install" TYPE PROGRAM FILES "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/ch/code/birl_climbot_location/install" TYPE PROGRAM FILES "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ch/code/ClimbingRobotLocation/install/env.sh")
+   "/home/ch/code/birl_climbot_location/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ch/code/ClimbingRobotLocation/install" TYPE PROGRAM FILES "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/ch/code/birl_climbot_location/install" TYPE PROGRAM FILES "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ch/code/ClimbingRobotLocation/install/setup.bash;/home/ch/code/ClimbingRobotLocation/install/local_setup.bash")
+   "/home/ch/code/birl_climbot_location/install/setup.bash;/home/ch/code/birl_climbot_location/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ch/code/ClimbingRobotLocation/install" TYPE FILE FILES
-    "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/setup.bash"
-    "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/ch/code/birl_climbot_location/install" TYPE FILE FILES
+    "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/setup.bash"
+    "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ch/code/ClimbingRobotLocation/install/setup.sh;/home/ch/code/ClimbingRobotLocation/install/local_setup.sh")
+   "/home/ch/code/birl_climbot_location/install/setup.sh;/home/ch/code/birl_climbot_location/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ch/code/ClimbingRobotLocation/install" TYPE FILE FILES
-    "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/setup.sh"
-    "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/ch/code/birl_climbot_location/install" TYPE FILE FILES
+    "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/setup.sh"
+    "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ch/code/ClimbingRobotLocation/install/setup.zsh;/home/ch/code/ClimbingRobotLocation/install/local_setup.zsh")
+   "/home/ch/code/birl_climbot_location/install/setup.zsh;/home/ch/code/birl_climbot_location/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ch/code/ClimbingRobotLocation/install" TYPE FILE FILES
-    "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/setup.zsh"
-    "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/ch/code/birl_climbot_location/install" TYPE FILE FILES
+    "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/setup.zsh"
+    "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ch/code/ClimbingRobotLocation/install/.rosinstall")
+   "/home/ch/code/birl_climbot_location/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ch/code/ClimbingRobotLocation/install" TYPE FILE FILES "/home/ch/code/ClimbingRobotLocation/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/ch/code/birl_climbot_location/install" TYPE FILE FILES "/home/ch/code/birl_climbot_location/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ch/code/ClimbingRobotLocation/build/gtest/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/gtest/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/uwb_msg/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/BIRL_UWB/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/BirlModuleRobot/canopen_communication/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/BirlModuleRobot/birl_modular_robot/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/BirlModuleRobot/ui/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/DeadReckoning/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/camera/cmake_install.cmake")
+  include("/home/ch/code/birl_climbot_location/build/vrpn_client/cmake_install.cmake")
 
 endif()
 
@@ -137,5 +145,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ch/code/ClimbingRobotLocation/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ch/code/birl_climbot_location/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

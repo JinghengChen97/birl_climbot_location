@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/T_mc_.dir/helper/pose_modifier.cpp.o  -o devel/lib/camera/T_mc_ 

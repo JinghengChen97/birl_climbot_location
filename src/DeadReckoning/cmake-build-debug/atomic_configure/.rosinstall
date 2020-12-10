@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ch/code/P440/DeadReckoningROS/src/DeadReckoning/cmake-build-debug/devel/setup.sh

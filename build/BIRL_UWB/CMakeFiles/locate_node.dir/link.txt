@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/locate_node.dir/src/BIRL_UWB.cpp.o CMakeFiles/locate_node.dir/src/usb.cpp.o CMakeFiles/locate_node.dir/main/main_uwb_locating.cpp.o  -o /home/ch/code/birl_climbot_location/devel/lib/BIRL_UWB/locate_node -rdynamic 

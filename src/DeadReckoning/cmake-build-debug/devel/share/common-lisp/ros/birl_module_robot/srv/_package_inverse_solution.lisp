@@ -1,0 +1,16 @@
+(cl:in-package birl_module_robot-srv)
+(cl:export '(WHICH_ROBOT-VAL
+          WHICH_ROBOT
+          BASE-VAL
+          BASE
+          DESCARTES_POS_COMMANDS-VAL
+          DESCARTES_POS_COMMANDS
+          DESCARTES_VEL_COMMANDS-VAL
+          DESCARTES_VEL_COMMANDS
+          CURRENT_JOINT_STATE-VAL
+          CURRENT_JOINT_STATE
+          JOINT_POS_COMMANDS-VAL
+          JOINT_POS_COMMANDS
+          JOINT_VEL_COMMANDS-VAL
+          JOINT_VEL_COMMANDS
+))

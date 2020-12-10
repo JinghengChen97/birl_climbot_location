@@ -1,0 +1,8 @@
+prefix=/home/ch/P440/DeadReckoningROS/src/DeadReckoning/cmake-build-debug/devel
+
+Name: DeadReckoning
+Description: Description of DeadReckoning
+Version: 0.0.0
+Cflags: -I/home/ch/P440/DeadReckoningROS/src/DeadReckoning/include
+Libs: -L${prefix}/lib 
+Requires: 

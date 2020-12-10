@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/ICP_hekper.dir/test/main.cpp.o  -o devel/lib/camera/ICP_hekper 

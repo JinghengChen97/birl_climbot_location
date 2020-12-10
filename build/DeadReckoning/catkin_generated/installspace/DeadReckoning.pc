@@ -1,0 +1,8 @@
+prefix=/home/ch/code/birl_climbot_location/install
+
+Name: DeadReckoning
+Description: Description of DeadReckoning
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

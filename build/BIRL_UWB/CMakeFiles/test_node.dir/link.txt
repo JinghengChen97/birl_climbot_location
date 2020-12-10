@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/test_node.dir/src/test_file.cpp.o CMakeFiles/test_node.dir/src/BIRL_UWB.cpp.o CMakeFiles/test_node.dir/src/usb.cpp.o  -o /home/ch/code/birl_climbot_location/devel/lib/BIRL_UWB/test_node -rdynamic 

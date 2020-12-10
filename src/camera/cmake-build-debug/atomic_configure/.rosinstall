@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ch/code/birl_climbot_location/src/camera/cmake-build-debug/devel/setup.sh

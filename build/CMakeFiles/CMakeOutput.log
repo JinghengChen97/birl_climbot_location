@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-123-generic - x86_64
+The system is: Linux - 4.15.0-126-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/ch/code/birl_climbot_location/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/ch/code/birl_climbot_location/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_01d68/fast"
-/usr/bin/make -f CMakeFiles/cmTC_01d68.dir/build.make CMakeFiles/cmTC_01d68.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_01d68.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_01d68.dir/testCCompiler.c.o   -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_01d68
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01d68.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_01d68.dir/testCCompiler.c.o  -o cmTC_01d68 -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b48ca/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b48ca.dir/build.make CMakeFiles/cmTC_b48ca.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b48ca.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_b48ca.dir/testCCompiler.c.o   -c /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b48ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b48ca.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b48ca.dir/testCCompiler.c.o  -o cmTC_b48ca -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fe6e3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fe6e3.dir/build.make CMakeFiles/cmTC_fe6e3.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_fe6e3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe6e3.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o  -o cmTC_fe6e3 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_8004b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8004b.dir/build.make CMakeFiles/cmTC_8004b.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_8004b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8004b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o  -o cmTC_8004b -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe6e3' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cch03V26.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_fe6e3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8004b' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd1aFXo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8004b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fe6e3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fe6e3.dir/build.make CMakeFiles/cmTC_fe6e3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_fe6e3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe6e3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o  -o cmTC_fe6e3 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8004b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8004b.dir/build.make CMakeFiles/cmTC_8004b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_8004b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8004b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o  -o cmTC_8004b -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe6e3' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cch03V26.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_fe6e3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8004b' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccd1aFXo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_8004b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cch03V26.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccd1aFXo.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fe6e3] ==> ignore
+    arg [cmTC_8004b] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_fe6e3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_8004b.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fec6b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fec6b.dir/build.make CMakeFiles/cmTC_fec6b.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fec6b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_fec6b.dir/feature_tests.c.o   -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fec6b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fec6b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_fec6b.dir/feature_tests.c.o  -o cmTC_fec6b -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_54005/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54005.dir/build.make CMakeFiles/cmTC_54005.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54005.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_54005.dir/feature_tests.c.o   -c /home/ch/code/birl_climbot_location/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_54005
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54005.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_54005.dir/feature_tests.c.o  -o cmTC_54005 -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7de98/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7de98.dir/build.make CMakeFiles/cmTC_7de98.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7de98.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_7de98.dir/feature_tests.c.o   -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7de98
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7de98.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_7de98.dir/feature_tests.c.o  -o cmTC_7de98 -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_88370/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88370.dir/build.make CMakeFiles/cmTC_88370.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88370.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_88370.dir/feature_tests.c.o   -c /home/ch/code/birl_climbot_location/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_88370
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88370.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_88370.dir/feature_tests.c.o  -o cmTC_88370 -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c20b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c20b.dir/build.make CMakeFiles/cmTC_4c20b.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c20b.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_4c20b.dir/feature_tests.c.o   -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4c20b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c20b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4c20b.dir/feature_tests.c.o  -o cmTC_4c20b -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a52ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a52ba.dir/build.make CMakeFiles/cmTC_a52ba.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a52ba.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_a52ba.dir/feature_tests.c.o   -c /home/ch/code/birl_climbot_location/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a52ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a52ba.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a52ba.dir/feature_tests.c.o  -o cmTC_a52ba -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f88fe/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f88fe.dir/build.make CMakeFiles/cmTC_f88fe.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f88fe.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_f88fe.dir/testCXXCompiler.cxx.o -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_f88fe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f88fe.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_f88fe.dir/testCXXCompiler.cxx.o  -o cmTC_f88fe -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dfb2b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfb2b.dir/build.make CMakeFiles/cmTC_dfb2b.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dfb2b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_dfb2b.dir/testCXXCompiler.cxx.o -c /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_dfb2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfb2b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_dfb2b.dir/testCXXCompiler.cxx.o  -o cmTC_dfb2b -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42278/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42278.dir/build.make CMakeFiles/cmTC_42278.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_42278
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42278.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_42278 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_e8ac2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8ac2.dir/build.make CMakeFiles/cmTC_e8ac2.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e8ac2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ac2.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e8ac2 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42278' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWjZazO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_42278 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8ac2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3gOUfO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e8ac2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_42278/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_42278.dir/build.make CMakeFiles/cmTC_42278.dir/build]
-  ignore line: [make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_42278]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42278.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_42278 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_e8ac2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e8ac2.dir/build.make CMakeFiles/cmTC_e8ac2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e8ac2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ac2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e8ac2 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42278' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWjZazO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_42278 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8ac2' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3gOUfO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_e8ac2 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccWjZazO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3gOUfO.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_42278] ==> ignore
+    arg [cmTC_e8ac2] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_42278.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_e8ac2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4d7c2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4d7c2.dir/build.make CMakeFiles/cmTC_4d7c2.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4d7c2.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_4d7c2.dir/feature_tests.cxx.o -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4d7c2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d7c2.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_4d7c2.dir/feature_tests.cxx.o  -o cmTC_4d7c2 -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ea7cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea7cb.dir/build.make CMakeFiles/cmTC_ea7cb.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ea7cb.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_ea7cb.dir/feature_tests.cxx.o -c /home/ch/code/birl_climbot_location/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ea7cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea7cb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ea7cb.dir/feature_tests.cxx.o  -o cmTC_ea7cb -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3f9b4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3f9b4.dir/build.make CMakeFiles/cmTC_3f9b4.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3f9b4.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_3f9b4.dir/feature_tests.cxx.o -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3f9b4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f9b4.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_3f9b4.dir/feature_tests.cxx.o  -o cmTC_3f9b4 -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_bd79c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd79c.dir/build.make CMakeFiles/cmTC_bd79c.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd79c.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_bd79c.dir/feature_tests.cxx.o -c /home/ch/code/birl_climbot_location/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bd79c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd79c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_bd79c.dir/feature_tests.cxx.o  -o cmTC_bd79c -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_500e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_500e0.dir/build.make CMakeFiles/cmTC_500e0.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_500e0.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_500e0.dir/feature_tests.cxx.o -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_500e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500e0.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_500e0.dir/feature_tests.cxx.o  -o cmTC_500e0 -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9d6e0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d6e0.dir/build.make CMakeFiles/cmTC_9d6e0.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d6e0.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_9d6e0.dir/feature_tests.cxx.o -c /home/ch/code/birl_climbot_location/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9d6e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6e0.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_9d6e0.dir/feature_tests.cxx.o  -o cmTC_9d6e0 -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +553,30 @@ make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b621e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b621e.dir/build.make CMakeFiles/cmTC_b621e.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b621e.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_b621e.dir/CheckIncludeFile.c.o   -c /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_b621e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b621e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_b621e.dir/CheckIncludeFile.c.o  -o cmTC_b621e -rdynamic 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1a9ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a9ee.dir/build.make CMakeFiles/cmTC_1a9ee.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a9ee.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1a9ee.dir/CheckIncludeFile.c.o   -c /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a9ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a9ee.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1a9ee.dir/CheckIncludeFile.c.o  -o cmTC_1a9ee -rdynamic 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp
+Change Dir: /home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9da68/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9da68.dir/build.make CMakeFiles/cmTC_9da68.dir/build
-make[1]: Entering directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9da68.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9da68.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9da68
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9da68.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9da68.dir/CheckFunctionExists.c.o  -o cmTC_9da68 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/ch/code/ClimbingRobotLocation/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_373cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_373cc.dir/build.make CMakeFiles/cmTC_373cc.dir/build
+make[1]: Entering directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_373cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_373cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_373cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_373cc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_373cc.dir/CheckFunctionExists.c.o  -o cmTC_373cc -rdynamic -lpthread 
+make[1]: Leaving directory '/home/ch/code/birl_climbot_location/build/CMakeFiles/CMakeTmp'
 
 
