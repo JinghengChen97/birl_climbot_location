@@ -1,0 +1,8 @@
+prefix=/home/ch/P440/IMU/devel
+
+Name: timesync
+Description: Description of timesync
+Version: 1.0.0
+Cflags: -I/home/ch/P440/IMU/devel/include -I/home/ch/P440/IMU/src/timesync_ros/include
+Libs: -L${prefix}/lib -ltimesync
+Requires: dynamic_reconfigure roscpp message_runtime

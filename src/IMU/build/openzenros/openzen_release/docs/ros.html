@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Robot Operating System (ROS) &mdash; OpenZen  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Unity Plugin" href="unity_plugin.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> OpenZen
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started with OpenZen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="supported_sensors.html">Supported Sensors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="io_systems.html">IO Systems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c_api.html">C API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_api.html">C++ API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="python_api.html">Python API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="csharp_api.html">C# API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unity_plugin.html">Unity Plugin</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Robot Operating System (ROS)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#compilation">Compilation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#running-the-driver">Running the Driver</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#supported-hardware">Supported Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ros-api">ROS API</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#openzen-sensor-node">openzen_sensor_node</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#published-topics">Published Topics</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#services">Services</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#parameters">Parameters</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OpenZen</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Robot Operating System (ROS)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/ros.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="robot-operating-system-ros">
+<h1>Robot Operating System (ROS)<a class="headerlink" href="#robot-operating-system-ros" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>The OpenZen ROS driver is hosted in a separate <a class="reference external" href="https://bitbucket.org/lpresearch/openzenros/">git repository</a>. In provides
+the ROS package to readout OpenZen sensors and provide IMU and magnetometer measurements via ROS topics.</p>
+<img alt="Visualization of angluar velocity data from an OpenZen sensor in rqt" src="_images/ros-plot.png" />
+<div class="section" id="compilation">
+<h3>Compilation<a class="headerlink" href="#compilation" title="Permalink to this headline">¶</a></h3>
+<p>To compile this driver in your ROS setup, follow these steps:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mkdir -p catskin_ws/src
+<span class="nb">cd</span> catskin_ws/src
+
+git clone --recurse-submodules https://bitbucket.org/lpresearch/openzenros.git
+
+<span class="c1"># get your ROS environment going</span>
+<span class="nb">source</span> /opt/ros/melodic/setup.bash
+catkin_make
+<span class="nb">source</span> ./devel/setup.bash
+</pre></div>
+</div>
+</div>
+<div class="section" id="running-the-driver">
+<h3>Running the Driver<a class="headerlink" href="#running-the-driver" title="Permalink to this headline">¶</a></h3>
+<p>Open another terminal window and run the ROS core:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span> /opt/ros/melodic/setup.bash
+roscore
+</pre></div>
+</div>
+<p>You can then run the OpenZen ROS driver with this command in the window
+you used to compile the software:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rosrun openzen_sensor openzen_sensor_node
+</pre></div>
+</div>
+<p>By default, it will connect to the first available sensor. If you want to connect to
+a specific sensor, you can use the serial name of the sensor as parameter, for example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rosrun openzen_sensor openzen_sensor_node _sensor_name:<span class="o">=</span><span class="s2">&quot;LPMSCU2000573&quot;</span>
+</pre></div>
+</div>
+<p>If your sensor is configured for a different baud rate, you can use the baudrate parameter to
+give a specfic baud rate setting:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rosrun openzen_sensor openzen_sensor_node _sensor_name:<span class="o">=</span><span class="s2">&quot;LPMSCU2000573&quot;</span> _baudrate:<span class="o">=</span><span class="m">115200</span>
+</pre></div>
+</div>
+<p>Now you can print the IMU values from ROS with:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rostopic <span class="nb">echo</span> /imu/data
+</pre></div>
+</div>
+<p>Or plot some values (for example linear acceleration) with</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rosrun rqt_plot rqt_plot /imu/data/linear_acceleration
+</pre></div>
+</div>
+<p>If you want to readout the values of two OpenZen sensors simultanously, you need to rename the topics and the node names likes this:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rosrun openzen_sensor openzen_sensor_node __name:<span class="o">=</span><span class="s2">&quot;cu2node&quot;</span> _sensor_name:<span class="o">=</span><span class="s2">&quot;LPMSCU2000573&quot;</span> imu:<span class="o">=</span>/cu2_imu
+rosrun openzen_sensor openzen_sensor_node __name:<span class="o">=</span><span class="s2">&quot;ig1_node&quot;</span> _sensor_name:<span class="o">=</span><span class="s2">&quot;LPMSIG1000032&quot;</span> imu:<span class="o">=</span>/ig1_imu
+</pre></div>
+</div>
+<p>You can also select another IO interface, for example Bluetooth:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rosrun openzen_sensor openzen_sensor _sensor_interface:<span class="o">=</span><span class="s2">&quot;Bluetooth&quot;</span> _sensor_name:<span class="o">=</span><span class="s2">&quot;00:11:22:33:FF:EE&quot;</span>
+</pre></div>
+</div>
+<p>Alternatively, you can use the sample launch file (openzen_lpms_ig1.launch) start data acquisition and plotting using openzen_sensor_node:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>roslaunch openzen_sensor openzen_lpms_ig1.launch
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="supported-hardware">
+<h2>Supported Hardware<a class="headerlink" href="#supported-hardware" title="Permalink to this headline">¶</a></h2>
+<p>This driver should work with IMUs that use the LPMS LPBus protocol. Tested Hardware:</p>
+<ul class="simple">
+<li><p>LPMS-IG1</p></li>
+<li><p>LPMS-CU2</p></li>
+</ul>
+</div>
+<div class="section" id="ros-api">
+<h2>ROS API<a class="headerlink" href="#ros-api" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="openzen-sensor-node">
+<h3>openzen_sensor_node<a class="headerlink" href="#openzen-sensor-node" title="Permalink to this headline">¶</a></h3>
+<p>lpms_ig1_node is a driver for the LPMS Inertial Measurement Unit. It publishes orientation, angular velocity, linear acceleration and magnetometer data (covariances are not yet supported), and complies with the <a class="reference external" href="https://wiki.ros.org/sensor_msgs)">Sensor message</a> for <a class="reference external" href="http://docs.ros.org/api/sensor_msgs/html/msg/Imu.html">IMU API</a> and <a class="reference external" href="http://docs.ros.org/melodic/api/sensor_msgs/html/msg/MagneticField.html">MagneticField</a> API.</p>
+<div class="section" id="published-topics">
+<h4>Published Topics<a class="headerlink" href="#published-topics" title="Permalink to this headline">¶</a></h4>
+<dl class="simple">
+<dt>/imu/data (<a class="reference external" href="http://docs.ros.org/api/sensor_msgs/html/msg/Imu.html">sensor_msgs/Imu</a>)</dt><dd><p>Inertial data from the IMU. Includes calibrated acceleration, calibrated angular rates and orientation. The orientation is always unit quaternion.</p>
+</dd>
+<dt>/imu/mag (<a class="reference external" href="http://docs.ros.org/melodic/api/sensor_msgs/html/msg/MagneticField.html">sensor_msgs/MagneticField</a>)</dt><dd><p>Magnetometer reading from the sensor.</p>
+</dd>
+<dt>/imu/is_autocalibration_active (<a class="reference external" href="http://docs.ros.org/api/std_msgs/html/msg/Bool.html">std_msgs/Bool</a>)</dt><dd><p>Latched topic indicating if the gyro autocalibration feature is active</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="services">
+<h4>Services<a class="headerlink" href="#services" title="Permalink to this headline">¶</a></h4>
+<dl class="simple">
+<dt>/imu/calibrate_gyroscope (<a class="reference external" href="http://docs.ros.org/api/std_srvs/html/srv/Empty.html">std_srvs/Empty</a>)</dt><dd><p>This service activates the IMU internal gyro bias estimation function. Please make sure the IMU sensor is placed on a stable platform with minimal vibrations before calling the service. Please make sure the sensor is stationary for at least 4 seconds. The service call returns a success response once the calibration procedure is completed.</p>
+</dd>
+<dt>/imu/reset_heading (<a class="reference external" href="http://docs.ros.org/api/std_srvs/html/srv/Empty.html">std_srvs/Empty</a>)</dt><dd><p>This service will reset the heading (yaw) angle of the sensor to zero.</p>
+</dd>
+<dt>/imu/enable_gyro_autocalibration (<a class="reference external" href="http://docs.ros.org/melodic/api/std_srvs/html/srv/SetBool.html">std_srvs/SetBool</a>)</dt><dd><p>Turn on/off autocalibration function in the IMU. The status of autocalibration can be obtained by subscribing to the /imu/is_autocalibration_active topic. A message will published to /imu/is_autocalibration_active for each call to /imu/autocalibrate.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="parameters">
+<h4>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h4>
+<dl>
+<dt>~sensor_name (string, default: null)</dt><dd><p>By default, the library will connect to the first available sensor. If you want to connect to a specific sensor, you can use the serial name of the sensor as sensor_name parameter as follow:</p>
+<p><cite>$ rosrun openzen_sensor openzen_sensor_node _sensor_name:=”LPMSCU2000573”</cite></p>
+</dd>
+<dt>~sensor_interface (string, default: LinuxDevice)</dt><dd><p>Name of IO system for initiating sensor connection. Use “LinuxDevice” for usb connection in Linux. For more details, please check the documentation in the section <a class="reference internal" href="io_systems.html#io-system-label"><span class="std std-ref">IO Systems</span></a>.</p>
+</dd>
+<dt>~baudrate (integer, default: 0)</dt><dd><p>Baudrate in bits per seconds used to connect to the sensor. If the baudrate is left at 0, OpenZen will automatically pick the default baudrate for the respective sensor model.</p>
+</dd>
+<dt>~frame_id (string, default: imu)</dt><dd><p>The frame in which imu readings will be returned.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="unity_plugin.html" class="btn btn-neutral float-left" title="Unity Plugin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, LP-Research Inc.
+
+    </p>
+  </div>
+    
+    
+      Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

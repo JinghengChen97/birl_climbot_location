@@ -1,0 +1,8 @@
+prefix=/home/ch/P440/IMU/devel
+
+Name: read_imu_data
+Description: Description of read_imu_data
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+lpms_imu:openzenros:read_imu_data:timesync_ros
+-DCATKIN_DEVEL_PREFIX=/home/ch/P440/IMU/devel -DCMAKE_INSTALL_PREFIX=/home/ch/P440/IMU/install -G Unix Makefiles

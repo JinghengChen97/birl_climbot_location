@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o   -L/home/ch/P440/IMU/src/read_imu_data/cmake-build-debug/gtest/gtest/src  -Wl,-rpath,/home/ch/P440/IMU/src/read_imu_data/cmake-build-debug/gtest/gtest/src -lpthread 

@@ -1,0 +1,8 @@
+prefix=/home/ch/P440/IMU/install
+
+Name: openzen_sensor
+Description: Description of openzen_sensor
+Version: 1.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
